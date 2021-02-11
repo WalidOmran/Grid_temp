@@ -1,0 +1,16 @@
+/* 3.0.0 Search Form  */
+.search-form input {
+    padding: 13px 18px;
+    margin: -2px;
+    border: none;
+}
+.search-form #search {
+    background: var(--light-gray);
+    border-radius: 6px 0px 0px 6px;
+}
+.search-form #search:focus { outline: none;}
+.search-form #submit {
+    background: var(--main-color);
+    color: var(--white-color);
+    border-radius: 0 6px 6px 0;
+}
